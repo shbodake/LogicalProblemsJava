@@ -1,6 +1,6 @@
 package com.blp.logicalproblems;
 import java.util.Scanner;
-public class ReverseNumber {
+public class ReverseNumber1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int remainder, reverse = 0;
@@ -13,5 +13,6 @@ public class ReverseNumber {
             num = num / 10;
         }
         System.out.println(reverse);
+
     }
 }
