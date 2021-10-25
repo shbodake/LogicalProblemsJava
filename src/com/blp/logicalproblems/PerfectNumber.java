@@ -7,7 +7,6 @@ public class PerfectNumber {
         System.out.println("Enter number : ");
         number = scanner.nextInt();
         scanner.close();
-
         for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 result = result + i;
